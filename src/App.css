@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.Text{
+  font-size: 14px;
+  color: #0066c0;
+}
+.Text:hover{
+  text-decoration: underline;
+  color: #c45500;
+}
+.Shadow:hover{
+  box-shadow: .2px .2px 7px rgb(255, 123, 0);
+}

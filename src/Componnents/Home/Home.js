@@ -10,6 +10,7 @@ import Image7 from './digital_devices.png';
 import Image8 from './Messages.jpg';
 import Image9 from './archived_orders.png';
 import Image10 from './Lists.png';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -26,19 +27,21 @@ const Home = () => {
 
                     {/* Card1 start */}
                     <div className="col-md-4 mb-4">
-                        <div className="container pt-3 pb-3 border rounded Card">
-                            <div className="row d-flex align-items-center">
-                                {/* Card1 Image */}
-                                <div className="col-md-4 d-flex justify-content-center align-items-center">
-                                    <img className="Card__Images" src={Image1} alt="" />
-                                </div>
-                                {/* Card1 info */}
-                                <div className="col-md-8 mt-2">
-                                    <p className="Card__Title">Your Orders</p>
-                                    <p className="Card__Description">Track, return, or buy things again</p>
+                        <Link style={{ textDecoration: "none", color: "Black" }} to="/yourOrders">
+                            <div className="container pt-3 pb-3 border rounded Card">
+                                <div className="row d-flex align-items-center">
+                                    {/* Card1 Image */}
+                                    <div className="col-md-4 d-flex justify-content-center align-items-center">
+                                        <img className="Card__Images" src={Image1} alt="" />
+                                    </div>
+                                    {/* Card1 info */}
+                                    <div className="col-md-8 mt-2">
+                                        <p className="Card__Title">Your Orders</p>
+                                        <p className="Card__Description">Track, return, or buy things again</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                     {/* Card1 End */}
 
