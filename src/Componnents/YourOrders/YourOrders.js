@@ -29,12 +29,16 @@ const YourOrders = () => {
                         <button id="Search__Button">Search Orders</button>
                     </div>
                     {/* Body Navigations */}
-                    <div className="col-md-12">
+                    <div className="col-md-12 border-bottom mt-5">
                         <div className="row">
-                            <div className="col-md-2"></div>
-                            <div className="col-md-2"></div>
-                            <div className="col-md-2"></div>
-                            <div className="col-md-2"></div>
+                            <div className="col-md-6">
+                                <div className="row text-center">
+                                    <div style={{borderBottom:"2.5px solid #c45500", fontSize:"14px", fontWeight:"bold"}} className="col-md-2 pb-2">Orders</div>
+                                    <div className="col-md-3 Text">Buy Again</div>
+                                    <div className="col-md-3 Text">Digital Orders</div>
+                                    <div className="col-md-4 Text">Cancelled Orders</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
