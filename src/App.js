@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from './Componnents/Home/Home';
 import YourOrders from './Componnents/YourOrders/YourOrders';
+import Informations from './Componnents/LoginAndSecurity/Informations/Informations';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         </Route>
         <Route path="/yourOrders">
           <YourOrders />
+        </Route>
+        <Route path="/informations">
+          <Informations />
         </Route>
         <Route path="/">
           <Home />

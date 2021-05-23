@@ -1,14 +1,20 @@
 import React from 'react';
 import './YourOrders.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDown, faAngleRight, faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faAngleRight, faSearch } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 
 const YourOrders = () => {
     return (
         <section className="container">
             {/* Navigation start */}
             <nav className="container d-flex mt-2">
-                <p className="Text mt-1">Your Account</p> &nbsp; &nbsp; <FontAwesomeIcon className="mt-2 text-secondary" icon={faAngleRight} /> &nbsp; &nbsp;
+                <Link style={{ textDecoration: "none" }} to="/home">
+                    <p className="Text mt-1">Your Account</p>
+                </Link>
+                    &nbsp; &nbsp;
+                    <FontAwesomeIcon className="mt-2 text-secondary" icon={faAngleRight} />
+                    &nbsp; &nbsp;
                 <p id="Nav__Title">Your orders</p>
             </nav>
             {/* Navigation End */}
@@ -58,6 +64,7 @@ const YourOrders = () => {
                     <section className="col-md-12 text-center mt-5">
                         <p>You have not placed any orders in last 30 days. <span className="Text">View orders in  2021 </span></p>
                     </section>
+                    
                 </section>
             </main>
         </section>
