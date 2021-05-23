@@ -1,21 +1,21 @@
 import React from 'react';
 import './YourOrders.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDown, faAngleRight, faSearch } from '@fortawesome/free-solid-svg-icons'
 
 const YourOrders = () => {
     return (
         <section className="container">
             {/* Navigation start */}
             <nav className="container d-flex mt-2">
-                <p className="Text mt-1">Your Account</p> &nbsp; &#8594; &nbsp;
+                <p className="Text mt-1">Your Account</p> &nbsp; &nbsp; <FontAwesomeIcon className="mt-2 text-secondary" icon={faAngleRight} /> &nbsp; &nbsp;
                 <p id="Nav__Title">Your orders</p>
             </nav>
             {/* Navigation End */}
 
             <main className="container">
                 <section className="row">
-                    {/* Body Heading Start */}
+                    {/* Body Heading */}
                     <div className="col-md-6">
                         <p id="Heading">Your Orders</p>
                     </div>
@@ -28,19 +28,36 @@ const YourOrders = () => {
                     <div className="col-md-2">
                         <button id="Search__Button">Search Orders</button>
                     </div>
-                    {/* Body Navigations */}
-                    <div className="col-md-12 border-bottom mt-5">
+
+                    {/* Body Navigations start */}
+                    <section className="col-md-12 border-bottom mt-5">
                         <div className="row">
                             <div className="col-md-6">
                                 <div className="row text-center">
-                                    <div style={{borderBottom:"2.5px solid #c45500", fontSize:"14px", fontWeight:"bold"}} className="col-md-2 pb-2">Orders</div>
+                                    <div style={{ borderBottom: "2.5px solid #c45500", fontSize: "14px", fontWeight: "bold" }} className="col-md-2 pb-2">Orders</div>
                                     <div className="col-md-3 Text">Buy Again</div>
                                     <div className="col-md-3 Text">Digital Orders</div>
                                     <div className="col-md-4 Text">Cancelled Orders</div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
+                    {/* Body Navigations End */}
+                    {/* Body Description */}
+                    <section className="col-md-12 d-flex mt-3">
+                        {/* Text */}
+                        <p> <b>0 order</b> placed</p> &nbsp; &nbsp;
+                        {/* Options */}
+                        <select name="" id="Record" className="Shadow">
+                            <option value="">past 3 months</option>
+                            <option value="">last 30 days</option>
+                            <option value="">2021</option>
+                        </select>
+                    </section>
+                    {/* Description text */}
+                    <section className="col-md-12 text-center mt-5">
+                        <p>You have not placed any orders in last 30 days. <span className="Text">View orders in  2021 </span></p>
+                    </section>
                 </section>
             </main>
         </section>

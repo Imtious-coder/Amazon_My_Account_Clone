@@ -1,7 +1,7 @@
 #Nav__Title{
     color: #c45500;
     font-size: 14px;
-    margin-top: 3px;
+    margin-top: 4px;
 }
 #Heading{
     font-size: 28px;
@@ -25,4 +25,15 @@
 }
 #Search__Button:hover{
     background-color: rgb(66, 66, 66);
+}
+
+#Record{
+    height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 0px 5px 4px 5px;
+    background-color: #ebebeb;
+}
+#Record:hover{
+    background-color: #dadada;
 }
