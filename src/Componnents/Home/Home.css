@@ -1,0 +1,16 @@
+#Title{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.Card__Images{
+    width: 66px;
+    height: 66px;
+    border-radius: 100%;
+}
+.Card__Title{
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
