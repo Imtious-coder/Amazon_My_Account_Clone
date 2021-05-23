@@ -26,7 +26,7 @@ const Home = () => {
 
                     {/* Card1 start */}
                     <div className="col-md-4 mb-4">
-                        <div className="container pt-3 pb-3 border rounded">
+                        <div className="container pt-3 pb-3 border rounded Card">
                             <div className="row d-flex align-items-center">
                                 {/* Card1 Image */}
                                 <div className="col-md-4 d-flex justify-content-center align-items-center">
@@ -44,7 +44,7 @@ const Home = () => {
 
                     {/* Card2 start */}
                     <div className="col-md-4 mb-4">
-                        <div className="container pt-3 pb-3 border rounded">
+                        <div className="container pt-3 pb-3 border rounded Card">
                             <div className="row d-flex align-items-center">
                                 {/* Card1 Image */}
                                 <div className="col-md-4 d-flex justify-content-center align-items-center">
@@ -62,7 +62,7 @@ const Home = () => {
 
                     {/* Card3 start */}
                     <div className="col-md-4 mb-4">
-                        <div className="container pt-3 pb-3 border rounded">
+                        <div className="container pt-3 pb-3 border rounded Card">
                             <div className="row d-flex align-items-center">
                                 {/* Card1 Image */}
                                 <div className="col-md-4 d-flex justify-content-center align-items-center">
@@ -80,7 +80,7 @@ const Home = () => {
 
                     {/* Card4 start */}
                     <div className="col-md-4 mb-4">
-                        <div className="container pt-3 pb-3 border rounded">
+                        <div className="container pt-3 pb-3 border rounded Card">
                             <div className="row d-flex align-items-center">
                                 {/* Card1 Image */}
                                 <div className="col-md-4 d-flex justify-content-center align-items-center">
@@ -99,7 +99,7 @@ const Home = () => {
 
                     {/* Card5 start */}
                     <div className="col-md-4 mb-4">
-                        <div className="container pt-3 pb-1 border rounded">
+                        <div className="container pt-3 pb-1 border rounded Card">
                             <div className="row d-flex align-items-center">
                                 {/* Card1 Image */}
                                 <div className="col-md-4 d-flex justify-content-center align-items-center">
@@ -118,7 +118,7 @@ const Home = () => {
 
                     {/* Card6 start */}
                     <div className="col-md-4 mb-4">
-                        <div className="container pt-2 pb-1 border rounded">
+                        <div className="container pt-2 pb-1 border rounded Card">
                             <div className="row d-flex align-items-center">
                                 {/* Card1 Image */}
                                 <div className="col-md-4 d-flex justify-content-center align-items-center">
@@ -137,7 +137,7 @@ const Home = () => {
 
                     {/* Card7 start */}
                     <div className="col-md-4 mb-4">
-                        <div className="container pt-2 pb-2 border rounded">
+                        <div className="container pt-2 pb-2 border rounded Card">
                             <div className="row d-flex align-items-center">
                                 {/* Card1 Image */}
                                 <div className="col-md-4 d-flex justify-content-center align-items-center">
@@ -156,7 +156,7 @@ const Home = () => {
 
                     {/* Card8 start */}
                     <div className="col-md-4 mb-4">
-                        <div className="container pt-2 pb-2 border rounded">
+                        <div className="container pt-4 pb-3 border rounded Card">
                             <div className="row d-flex align-items-center">
                                 {/* Card1 Image */}
                                 <div className="col-md-4 d-flex justify-content-center align-items-center">
@@ -164,46 +164,46 @@ const Home = () => {
                                 </div>
                                 {/* Card1 info */}
                                 <div className="col-md-8 mt-2">
-                                    <p className="Card__Title">Your Device and Contents</p>
-                                    <p className="Card__Description">Manage your Amazon devices and digital content</p>
+                                    <p className="Card__Title">Your Messages</p>
+                                    <p className="Card__Description">View messages to and from Amazon, sellers, and buyers</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {/* Card4 End */}
+                    {/* Card8 End */}
 
 
-                    {/* Card4 start */}
+                    {/* Card9 start */}
                     <div className="col-md-4 mb-4">
-                        <div className="container pt-2 pb-2 border rounded">
+                        <div className="container pt-4 pb-3 border rounded Card">
                             <div className="row d-flex align-items-center">
                                 {/* Card1 Image */}
                                 <div className="col-md-4 d-flex justify-content-center align-items-center">
-                                    <img className="Card__Images" src={Image4} alt="" />
+                                    <img className="Card__Images" src={Image9} alt="" />
                                 </div>
                                 {/* Card1 info */}
                                 <div className="col-md-8 mt-2">
-                                    <p className="Card__Title">Gift cards</p>
-                                    <p className="Card__Description">View balance, redeem, or reload cards</p>
+                                    <p className="Card__Title">Archived orders</p>
+                                    <p className="Card__Description">View and manage your archived orders</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {/* Card4 End */}
+                    {/* Card9 End */}
 
 
-                    {/* Card4 start */}
+                    {/* Card10 start */}
                     <div className="col-md-4 mb-4">
-                        <div className="container pt-2 pb-2 border rounded">
+                        <div className="container pt-3 pb-3 border rounded Card">
                             <div className="row d-flex align-items-center">
                                 {/* Card1 Image */}
                                 <div className="col-md-4 d-flex justify-content-center align-items-center">
-                                    <img className="Card__Images" src={Image4} alt="" />
+                                    <img className="Card__Images" src={Image10} alt="" />
                                 </div>
                                 {/* Card1 info */}
                                 <div className="col-md-8 mt-2">
-                                    <p className="Card__Title">Gift cards</p>
-                                    <p className="Card__Description">View balance, redeem, or reload cards</p>
+                                    <p className="Card__Title">Your List</p>
+                                    <p className="Card__Description">View, modify, and share your lists, or create new ones</p>
                                 </div>
                             </div>
                         </div>

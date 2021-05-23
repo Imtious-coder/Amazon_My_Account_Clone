@@ -2,7 +2,9 @@
     font-size: 28px;
     font-weight: 500;
 }
-
+.Card:hover{
+background-color: rgb(236, 236, 236);
+}
 .Card__Images{
     width: 66px;
     height: 66px;
