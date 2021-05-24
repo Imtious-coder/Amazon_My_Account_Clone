@@ -8,6 +8,7 @@ import {
 import Home from './Componnents/Home/Home';
 import YourOrders from './Componnents/YourOrders/YourOrders';
 import Informations from './Componnents/LoginAndSecurity/Informations/Informations';
+import Name from './Componnents/LoginAndSecurity/Name/Name';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
         </Route>
         <Route path="/informations">
           <Informations />
+        </Route>
+        <Route path="/name">
+          <Name />
         </Route>
         <Route path="/">
           <Home />

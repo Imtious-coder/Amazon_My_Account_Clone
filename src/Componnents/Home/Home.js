@@ -47,19 +47,21 @@ const Home = () => {
 
                     {/* Card2 start */}
                     <div className="col-md-4 mb-4">
-                        <div className="container pt-3 pb-3 border rounded Card">
-                            <div className="row d-flex align-items-center">
-                                {/* Card1 Image */}
-                                <div className="col-md-4 d-flex justify-content-center align-items-center">
-                                    <img className="Card__Images" src={Image2} alt="" />
-                                </div>
-                                {/* Card1 info */}
-                                <div className="col-md-8 mt-2">
-                                    <p className="Card__Title">Login and security</p>
-                                    <p className="Card__Description">Edit login, name, and mobile number</p>
+                        <Link style={{ textDecoration: "none", color: "Black" }} to="/informations">
+                            <div className="container pt-3 pb-3 border rounded Card">
+                                <div className="row d-flex align-items-center">
+                                    {/* Card1 Image */}
+                                    <div className="col-md-4 d-flex justify-content-center align-items-center">
+                                        <img className="Card__Images" src={Image2} alt="" />
+                                    </div>
+                                    {/* Card1 info */}
+                                    <div className="col-md-8 mt-2">
+                                        <p className="Card__Title">Login and security</p>
+                                        <p className="Card__Description">Edit login, name, and mobile number</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                     {/* Card2 End */}
 

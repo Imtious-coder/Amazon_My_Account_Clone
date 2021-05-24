@@ -15,7 +15,7 @@ const YourOrders = () => {
                     &nbsp; &nbsp;
                     <FontAwesomeIcon className="mt-2 text-secondary" icon={faAngleRight} />
                     &nbsp; &nbsp;
-                <p id="Nav__Title">Your orders</p>
+                <p className="Nav__Title">Your orders</p>
             </nav>
             {/* Navigation End */}
 
@@ -23,7 +23,7 @@ const YourOrders = () => {
                 <section className="row">
                     {/* Body Heading */}
                     <div className="col-md-6">
-                        <p id="Heading">Your Orders</p>
+                        <p className="Heading">Your Orders</p>
                     </div>
                     {/* Search input */}
                     <div style={{ height: "31px", border: "1px solid grey" }} className="col-md-4 d-flex rounded Shadow mb-2">
@@ -64,7 +64,6 @@ const YourOrders = () => {
                     <section className="col-md-12 text-center mt-5">
                         <p>You have not placed any orders in last 30 days. <span className="Text">View orders in  2021 </span></p>
                     </section>
-                    
                 </section>
             </main>
         </section>
